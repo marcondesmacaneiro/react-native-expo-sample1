@@ -1,26 +1,27 @@
 {
   "expo": {
-    "name": "my-project",
-    "slug": "my-project",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Calculadora Aulas",
+    "slug": "Calculadora-aulas",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#01911e"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "br.com.marcondesmacaneiro.calculadora",
+      "adaptiveIcon": {
+        "backgroundColor": "#01911e",
+        "foregroundImage": "./assets/icon.png"
+      }
+    },
     "ios": {
       "supportsTablet": true
     }

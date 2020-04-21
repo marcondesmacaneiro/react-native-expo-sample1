@@ -1,12 +1,12 @@
 import React from "react";
-import Calculadora from "./src/Calculadora";
+import Animacao from "./src/Animacao";
 import { StatusBar } from "react-native";
 
 export default function App() {
   return (
     <>
       <StatusBar barStyle="light-content" backgroundColor="#01911e" />
-      <Calculadora />
+      <Animacao />
     </>
   );
 }
